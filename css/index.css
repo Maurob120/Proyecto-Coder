@@ -26,7 +26,7 @@ header {
   position: absolute;
   min-width: 140px;
 }
-#menu ul{
+#menu ul {
   list-style: none;
 }
 
@@ -34,7 +34,7 @@ header {
   display: inline-block;
 }
 
-#menu ul li a{
+#menu ul li a {
   color: white;
   display: block;
   padding: 10px;
@@ -105,8 +105,6 @@ h1 {
   color: #222;
 }
 
-
-
 /* bibliografia */
 
 .bibliografia {
@@ -127,7 +125,6 @@ h1 {
     height: auto;
   }
 }
-
 
 .bilioTexto {
   width: 55%;
@@ -151,7 +148,6 @@ h1 {
   letter-spacing: 3px;
   line-height: 30px;
   padding-bottom: 2%;
-  
 }
 
 @media (max-width: 63.9375em) {
@@ -180,7 +176,7 @@ h1 {
   background-image: url(https://i.pinimg.com/564x/04/10/e9/0410e99770b343f07ca93a00068051e2.jpg);
   background-position: top center;
 }
-#imgBarderos{
+#imgBarderos {
   background-image: url(https://indiehoy.com/wp-content/uploads/2020/07/barderos-full.jpg);
   background-position: top center;
 }
@@ -192,7 +188,6 @@ h1 {
   width: 450px;
 }
 
-
 /* Estilo musical */
 .titulo {
   margin-top: 50px;
@@ -203,7 +198,7 @@ h1 {
   padding-bottom: 2%;
 }
 .estiloMusical {
-    margin: 50px 0;
+  margin: 50px 0;
 }
 
 /* Albunes */
@@ -222,7 +217,6 @@ h1 {
   padding-top: 25px;
 }
 .fotoAlbum {
-  
   margin: 50px 0;
   display: flex;
   justify-content: center;
@@ -233,31 +227,29 @@ h1 {
 }
 
 .albumes {
-    padding-top: 25px;
-    background-color: #838383;
+  padding-top: 25px;
+  background-color: #838383;
 }
 
 .fotoAlbum img:hover {
- 
   box-shadow: 0 25px 25px #000001;
   color: #222;
 }
 
- /* entrevistas */
+/* entrevistas */
 .videos {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .videosEntre {
-    margin-left: 25px;
+  margin-left: 25px;
   margin-right: 25px;
 }
 .textoEntrevistas {
   text-align: center;
   padding-top: 25px;
-  margin-bottom: 5rem;
+  margin-bottom: 4rem;
 }
-
 
 footer {
   padding: 50px 0px 50px 0px;
@@ -279,15 +271,13 @@ footer a {
 /* barderos */
 .logoBarderos {
   width: 145px;
-    height: 60px;
+  height: 60px;
 }
 .textoBarderos {
-
   font-size: x-large;
   margin-right: 25px;
   margin-left: 25px;
 }
-
 
 @media (min-width: 600px) {
   .tall {
@@ -322,17 +312,17 @@ footer a {
   }
   .videos {
     display: block;
-}
-.videosEntre{
+  }
+  .videosEntre {
     width: 87%;
-}
-.fotoAlbum {
-  display: block;
-  width: 87%;
-}
-.inicio button {
-margin-bottom: 15px;
-}
+  }
+  .fotoAlbum {
+    display: block;
+    width: 87%;
+  }
+  .inicio button {
+    margin-bottom: 15px;
+  }
 }
 
 .bilioTexto h3 {
@@ -350,7 +340,7 @@ margin-bottom: 15px;
 }
 
 @media screen and (max-width: 1025px) {
-  .logosAmbos{
+  .logosAmbos {
     display: inline-block;
   }
 
