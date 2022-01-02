@@ -15,18 +15,30 @@
 
 <body>
     <header>
-        <nav id="menu">
-            <div>
-                <a>
-                    <img src="img/logobarderos.svg" alt="logo de barderos" width="" height="" class="logo">
-                </a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <a class="navbar-brand" href="#"><img src="img/logobarderos.svg" alt="logo de barderos"></a>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html"> <i
+                                    class="fas fa-step-backward"></i> Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#Álbumes"><i class="fas fa-music"></i>
+                                Álbumes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#Redes"><i class="far fa-comments"></i> Redes</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-
-            <ul>
-                <li><a href="index.html"> <i class="fas fa-step-backward"></i> Inicio </a> </li>
-                <li><a href="#Albumes"> <i class="fas fa-music"></i> Álbumes</a> </li>
-                <li><a href="#Redes"> <i class="far fa-comments"></i> Redes</a></li>
-            </ul>
         </nav>
     </header>
 
@@ -48,13 +60,14 @@
                             en Youtube</button></a>
                     <a target="_blank" href="https://open.spotify.com/artist/5Q2fyL2TcdUY9IqKTkGk5G"><button
                             class="botonSpotify">Escuchar en Spotify</button></a>
+                            
                 </div>
             </div>
             <div id="imgBarderos" class="imgHomero"></div>
         </div>
     </section>
 
-    <section class="albumes" id="Albumes">
+    <section class="albumes" id="Álbumes">
         <div class="container">
             <h3 class="titulo centrar">Álbumes</h3>
             <div class="row">
@@ -70,37 +83,25 @@
         </div>
     </section>
 
-    <section>
-        <div class="logosAmbos">
-            <div>
-                <img src="img/homer.png" alt="logo de homer">
-            </div>
-
-            <div>
-                <img src="img/cro.png" alt="logo de cro">
-            </div>
-        </div>
-    </section>
-
-    <footer>
+    <footer id="Redes">
         <div class="container">
             <div class="row">
                 <div class="col-4"></div>
-                <div class="col-4 centrar">
-                    <a href="https://www.youtube.com/channel/UCY1ju0JYUXtd3lVZmRbAdrg" target="_blank">
-                        <i class="fab fa-youtube"></i>
+                <div class="col-4 logosAmbos centrar">
+                    <a href="https://www.instagram.com/homer_elmeromero/" target="_blank">
+                        <img src="img/homer.png" alt="">
                     </a>
-                    <a href="https://open.spotify.com/artist/5Q2fyL2TcdUY9IqKTkGk5G" target="_blank">
-                        <i class="fab fa-spotify"></i>
-                    </a>
-                    <a href="https://www.instagram.com/barderos/" target="_blank">
-                        <i class="fab fa-instagram"></i>
+                    <a href="https://www.instagram.com/crocraxker/" target="_blank">
+                        <img src="img/cro.png" alt="">
                     </a>
                 </div>
                 <div class="col-4"></div>
             </div>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/949a1f774b.js" crossorigin="anonymous"></script>
 </body>
 

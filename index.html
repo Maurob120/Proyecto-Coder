@@ -15,20 +15,40 @@
 
 <body>
     <header>
-        <nav id="menu">
-            <div>
-                <a>
-                    <img src="img/homer.png" alt="logo del homer" width="" height="" class="logo">
-                </a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <a class="navbar-brand" href="#"><img src="img/homer.png"
+                            alt="logo de homer"></a>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#Bibliografía"> <i class="fas fa-user"></i>
+                                Bibliografía</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#Álbumes"><i class="fas fa-music"></i>
+                                Álbumes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#Entrevistas"><i class="fas fa-tv"></i>
+                                Entrevistas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#Redes"><i class="far fa-comments"></i>
+                                Redes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="barderos.html"><i class="fas fa-dollar-sign"></i>
+                                Barderos</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-
-            <ul>
-                <li><a href="#Bibliografia"> <i class="fas fa-user"></i> Bibliografía </a> </li>
-                <li><a href="barderos.html"> <i class="fas fa-dollar-sign"></i> Barderos </a> </li>
-                <li><a href="#Albumes"> <i class="fas fa-music"></i> Álbumes</a> </li>
-                <li><a href="#Entrevistas"> <i class="fas fa-tv"></i> Entrevistas</a> </li>
-                <li><a href="#Redes"> <i class="far fa-comments"></i> Redes</a></li>
-            </ul>
         </nav>
     </header>
 
@@ -48,7 +68,7 @@
         </div>
     </section>
 
-    <section id="Bibliografia" class="bibliografia">
+    <section id="Bibliografía" class="bibliografia">
         <div class="biblio">
             <div class="bilioTexto ">
                 <h2>Bibliografía</h2>
@@ -101,7 +121,7 @@
         </div>
     </section>
 
-    <section class="albumes" id="Albumes">
+    <section class="albumes" id="Álbumes">
         <div class="container">
             <h3 class="titulo centrar">Álbumes</h3>
             <div class="row">
@@ -162,6 +182,9 @@
         </div>
     </footer>
     <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/949a1f774b.js" crossorigin="anonymous"></script>
 </body>
 
